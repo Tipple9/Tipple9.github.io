@@ -11,11 +11,11 @@ $(window).scroll(function(){
 var className = 'hasScrolled';
 
 $(document).scroll(function() {
-    if ($(document).scrollTop() >= 360) {
+    if ($(document).scrollTop() >= 320) {
         // if user scrolled 300 pixels or more;
-        $('.slider').fadeOut(300);
+        $('.slider').fadeOut(100);
     }
     else {
-        $('.slider').fadeIn(300);
+        $('.slider').fadeIn(200);
     }
 });
