@@ -141,6 +141,9 @@ html, body {
 .col-clear {
   text-indent: -9999px;
 }
+.invis {
+  text-indent: -9999px;
+}
 .flexbox-container {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -373,21 +376,21 @@ ul.nav-menu li a:hover {
   color: #e74c3c;
 }
 /*add gallery here*/
-.services {
+.skills {
   background-color: #303030;
   position: relative;
   z-index: 6;
   width: 100%;
   overflow: hidden;
 }
-#services-target {
+#skills-target {
   position: relative;
   text-indent: -9999px;
   margin-top: -80px;
   width: 100%;
   height: 80px;
 }
-.services-title {
+.skills-title {
   font-family: 'Open Sans';
   font-size: 24px;
   color: #fff;
@@ -396,19 +399,27 @@ ul.nav-menu li a:hover {
   padding-bottom: 20px;
   text-align: center;
 }
-.services-title:before,
-.services-title:after {
+.skills-title:before,
+.skills-title:after {
   padding-left: 10px;
   padding-right: 10px;
   content: "/";
   color: #e74c3c;
 }
-.services-text {
+.skills-text {
   text-align: center;
   font-family: 'Open Sans';
   font-size: 18px;
   padding-bottom: 40px;
   color: #fff;
+}
+.skill-detail {
+  margin-top: 20px;
+  left: 20px;
+  background-color: rgba(40, 40, 40, 0.4);
+  padding: 10px 15px 10px 15px;
+  border-left: 2px solid #e74c3c;
+  font-size: 20px;
 }
 .contact {
   background-color: #282828;
