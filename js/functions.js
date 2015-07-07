@@ -1,3 +1,4 @@
+// parallax header
 $(window).scroll(function(){
 
     var wScroll = $(this).scrollTop();
@@ -8,14 +9,14 @@ $(window).scroll(function(){
 
 });
 
-var className = 'hasScrolled';
-
+// fade out header
 $(document).scroll(function() {
     if ($(document).scrollTop() >= 320) {
-        // if user scrolled 300 pixels or more;
+        // if user scrolled 320 pixels or more;
         $('.slider').fadeOut(100);
     }
     else {
         $('.slider').fadeIn(200);
     }
 });
+
